@@ -12,27 +12,16 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo"><a href="./index.html" style="text-decoration: none; color: black;">MentorLink</a></div>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Início</a></li>
-                <li><a href="./findyourway.html">Encontre seu caminho</a></li>
-            </ul>
-        </nav>
-    </header>
+<?php include 'components/header.html';?>
 
     <section class="principal">
         <div class="section">
             <div class="section-item">
-                <img src="./img/jobtree.png" height="500px">
             </div>
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2024 MentorLink. Todos os direitos reservados.</p>
-    </footer>
+<?php require 'components/footer.html';?>
     <script>
         window.addEventListener('load', () => {
             const principal = document.querySelector('.principal');
