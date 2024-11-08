@@ -10,7 +10,7 @@
         <section class="principal">
             <div class="principal-content">
                 <h1>Bem vindo</h1>
-                <a href="form.php" class="btn btn-primary my-3">Começar minha jornada!</a>
+                <a href="preform.php" class="btn btn-primary my-3">Começar minha jornada!</a>
                 <p class="mx-3">MentorLink, ajudando você a encontrar seu caminho.</p>
             </div>
         </section>

@@ -4,7 +4,7 @@
 <?php include './components/head.html'; ?>
 
 <body>
-<?php include 'components/header.html'; ?>
+<?php include 'components/loggedHeader.html'; ?>
 <form action="processa_form.php" method="POST">
     <div class="card shadow m-3 p-4">
         <h3 class="mb-4">Responda as perguntas</h3>

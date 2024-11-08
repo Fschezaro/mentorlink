@@ -23,21 +23,28 @@ include 'components/header.html';
 
     <section class="especialistas">
         <h2>Profissionais especialistas da área</h2>
+        <a href="profile.php" style="text-decoration: none;">
         <div class="especialista">
             <div class="avatar"></div>
-            <div class="nome">ELON</div>
+            <div class="nome text-black">ELON</div>
             <div class="area-profissional">Desenvolvimento web</div>
         </div>
+        </a>
+        <a href="profile.php" style="text-decoration: none">
+
         <div class="especialista">
             <div class="avatar"></div>
-            <div class="nome">Xandao</div>
+            <div class="nome text-black">Xandao</div>
             <div class="area-profissional">DevOps</div>
         </div>
+        </a>
+        <a href="profile.php" style="text-decoration: none">
         <div class="especialista">
             <div class="avatar"></div>
-            <div class="nome">Xandao</div>
+            <div class="nome text-black">Xandao</div>
             <div class="area-profissional">Segurança de Redes</div>
         </div>
+        </a>
     </section>
 </div>
 

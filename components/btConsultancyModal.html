@@ -1,0 +1,26 @@
+
+
+<!-- Modal -->
+<div class="modal fade" id="consultancyModal" tabindex="-1" aria-labelledby="consultancyModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="consultancyModalh1">Solicitar uma consultoria</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input class="form-control" type="date"  id="dateInput" onclick="openDatePicker()">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="background-color: #6528e0; border-color: #6528e0">Solicitar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function openDatePicker() {
+        const dateInput = document.getElementById('dateInput');
+        dateInput.showPicker();
+    }
+</script>

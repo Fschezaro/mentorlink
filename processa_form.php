@@ -38,20 +38,20 @@ if ($question12 === 'sim') $dadosPoints++;
 
 // Verifica se todas as pontuações são zero
 if ($devSoftwarePoints === 0 && $redeComputadoresPoints === 0 && $dadosPoints === 0) {
-    $redirectUrl = "http://localhost/trabalho/form.php"; // Redireciona para o formulário se não houver pontuação
+    $redirectUrl = "./form.php"; // Redireciona para o formulário se não houver pontuação
 } else {
     // Determinar a área com base na pontuação
     if ($devSoftwarePoints >= $redeComputadoresPoints && $devSoftwarePoints >= $dadosPoints) {
         $result = "Desenvolvimento de Software";
-        $redirectUrl = "http://localhost/trabalho/result1.php"; // URL para a página de Desenvolvimento de Software
+        $redirectUrl = "./result1.php"; // URL para a página de Desenvolvimento de Software
     } elseif ($redeComputadoresPoints >= $devSoftwarePoints && $redeComputadoresPoints >= $dadosPoints) {
         $result = "Redes de Computadores";
-        $redirectUrl = "http://localhost/trabalho/result2.php"; // URL para a página de Redes de Computadores
+        $redirectUrl = "./result2.php"; // URL para a página de Redes de Computadores
     } elseif ($dadosPoints >= $devSoftwarePoints && $dadosPoints >= $redeComputadoresPoints) {
         $result = "Dados";
-        $redirectUrl = "http://localhost/trabalho/result3.php"; // URL para a página de Dados
+        $redirectUrl = "./result3.php"; // URL para a página de Dados
     } else {
-        $redirectUrl = "http://localhost/trabalho/form.php"; // Redireciona para o formulário se não houver correspondência
+        $redirectUrl = "./form.php"; // Redireciona para o formulário se não houver correspondência
     }
 }
 
