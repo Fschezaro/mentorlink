@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -26,3 +27,12 @@
 </body>
 
 </html>
+<?php
+$arquivo = 'logs.txt';
+$dataHora = date('Y-m-d H:i:s');
+$enderecoIP = $_SERVER['REMOTE_ADDR'];
+$userAgent = $_SERVER['HTTP_USER_AGENT'];
+$isMobile = preg_match('/Mobile|Android|iPhone|iPad/', $userAgent) ? 'Sim' : 'Não';
+$log = "Acesso em: $dataHora - IP: $enderecoIP - Navegador: $userAgent - Dispositivo Móvel: $isMobile\n";
+file_put_contents($arquivo, $log, FILE_APPEND);
+?>

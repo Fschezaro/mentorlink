@@ -1,11 +1,9 @@
 <?php
-// Inclui o head (contendo Bootstrap e CSS principal)
 include 'components/head.html';
-// Inclui o header com o logo e links principais
-include 'components/header.html';
+include 'components/loggedHeader.html';
 ?>
 
-<div class="container">
+<div class="container mt-5">
     <section class="areas">
         <div class="area">
             <p class="ranking">1º</p>
