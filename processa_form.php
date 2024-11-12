@@ -43,13 +43,13 @@ if ($devSoftwarePoints === 0 && $redeComputadoresPoints === 0 && $dadosPoints ==
     // Determinar a área com base na pontuação
     if ($devSoftwarePoints >= $redeComputadoresPoints && $devSoftwarePoints >= $dadosPoints) {
         $result = "Desenvolvimento de Software";
-        $redirectUrl = "./result1.php"; // URL para a página de Desenvolvimento de Software
+        $redirectUrl = "./result.php?area=desenvolvimento"; // URL para a página de Desenvolvimento de Software
     } elseif ($redeComputadoresPoints >= $devSoftwarePoints && $redeComputadoresPoints >= $dadosPoints) {
         $result = "Redes de Computadores";
-        $redirectUrl = "./result2.php"; // URL para a página de Redes de Computadores
+        $redirectUrl = "./result.php?area=redes"; // URL para a página de Redes de Computadores
     } elseif ($dadosPoints >= $devSoftwarePoints && $dadosPoints >= $redeComputadoresPoints) {
         $result = "Dados";
-        $redirectUrl = "./result3.php"; // URL para a página de Dados
+        $redirectUrl = "./result.php?area=dados "; // URL para a página de Dados
     } else {
         $redirectUrl = "./form.php"; // Redireciona para o formulário se não houver correspondência
     }

@@ -13,7 +13,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="background-color: #6528e0; border-color: #6528e0">Solicitar</button>
+                <button type="button" class="btn btn-primary text-white" data-bs-dismiss="modal" onclick="clearDatePicker()">Solicitar</button>
             </div>
         </div>
     </div>
@@ -22,5 +22,11 @@
     function openDatePicker() {
         const dateInput = document.getElementById('dateInput');
         dateInput.showPicker();
+    }
+    function clearDatePicker() {
+        const dateInput = document.getElementById('dateInput');
+        if (dateInput) {
+            dateInput.value = "";
+        }
     }
 </script>
