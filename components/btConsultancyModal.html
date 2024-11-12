@@ -9,11 +9,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <input class="form-control" type="date"  id="dateInput" onclick="openDatePicker()">
+                <input class="form-control" type="date"  id="dateInput" onclick="openDatePicker()" min="2024-11-13">
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                <button type="button" class="btn btn-primary text-white" data-bs-dismiss="modal" onclick="clearDatePicker()">Solicitar</button>
+                <button type="button" class="btn btn-primary text-white" data-bs-dismiss="modal" onclick="clearDatePicker()" style="background-color: #6393B9; border-color: #6393B9">Solicitar</button>
             </div>
         </div>
     </div>
@@ -29,4 +29,6 @@
             dateInput.value = "";
         }
     }
+    let dataAtual = new Date();
+    console.log(dataAtual);
 </script>
