@@ -54,7 +54,7 @@ if ($name == "Matheus Camargo"){
     ];
 } elseif ($name == "julio Silveira"){
     $professional = [
-        "name" => "julio Silveira",
+        "name" => "Julio Silveira",
         "photo" => "img/julio-silveira.png",
         "portfolio" => "./img/portfolio-julio-silveira.jpg",
         "about" => "Cientista de Dados formado em Ciência de Dados, com 5 anos de
