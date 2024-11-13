@@ -52,7 +52,7 @@ if ($name == "Matheus Camargo"){
                      corporativas, prevenindo ameaças e otimizando a segurança da
                      infraestrutura de TI."
     ];
-} elseif ($name == "julio Silveira"){
+} elseif ($name == "Julio Silveira"){
     $professional = [
         "name" => "Julio Silveira",
         "photo" => "img/julio-silveira.png",
