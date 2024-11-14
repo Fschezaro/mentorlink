@@ -1,0 +1,5 @@
+Acesso em: 2024-11-13 23:21:38 - IP: 177.51.195.170 - Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 - Dispositivo Móvel: Não
+Acesso em: 2024-11-13 23:26:12 - IP: 177.51.195.170 - Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 - Dispositivo Móvel: Não
+Acesso em: 2024-11-13 23:44:48 - IP: 179.68.100.113 - Navegador: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/26.0 Chrome/122.0.0.0 Mobile Safari/537.36 - Dispositivo Móvel: Sim
+Acesso em: 2024-11-13 23:48:33 - IP: 194.50.16.198 - Navegador: Linux Gnu (cow) - Dispositivo Móvel: Não
+Acesso em: 2024-11-14 00:06:41 - IP: 154.213.191.23 - Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46 - Dispositivo Móvel: Não
